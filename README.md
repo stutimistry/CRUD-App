@@ -4,6 +4,7 @@ The app stores data in the browser’s localStorage, allowing persistence withou
 This project focuses on core JavaScript fundamentals, clean UI design, and proper state management.
 
 Features
+
 Create new records
 Display stored records in a table
 Edit existing entries

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>CRUD Application</h1>
+
+        <form id="dataform">
+            <input type="text" id="input" placeholder="Enter name">
+            <button type="submit" id="submitbtn">Save</button>
+            <button type="button" id="clearAllbtn">Clear ALL</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
